@@ -1,0 +1,20 @@
+{
+    "name": "Contador App Vue", // Nombre que aparecera en dispositivos como por ejemplo un PC
+    "short_name": "Contador Vue", // Nombre que aparecera por ejemplo en dispotivos mobiles
+    "description": "Contador App Vue es una aplicacion que forma parte del curso de Vue 3 desde 0", // Esta es una descripcion breve de lo que hace la aplicacion
+    "background_color": "#35495e", // Este es el color que se mostrara por ejemplo al cargar el app antes de mostrarce o abrirse
+    "theme_color": "#41b833", // Este color se vera reflejado en la barra superior del dispositivo
+    "start_url": "./?umt_source=web_app_manifest", // Esto es un standar de texto, y especifica la url que se carga cuando un usario lanza la aplicacion desde el dispositivo
+    "scope": "./", // Esto significa a partir de que archivo va a ejecutar
+    "lang": "es-CO" // Esto define que todos los textos que hay dentro del aplicativo estan en ese Idioma
+    "display": "fullscreen", // Esto define como quiero mostrar la pantalla en cualquier dispositivo
+    "orientation": "portrait"  // Esto me define la orientacion del app si es horizontal, vertical, etc
+    "icons": [ // El manifest por defautl necesita cargar los iconos esto con la finalidad de como se va mostrar en un dispositivo ya sea pc o movil 
+        // Ahora, Se crea un objecto de cada una de las imagenes con sus diferentes resoluciones 16+16, etc..
+        {
+            "src": "./img/favicon.png", // src: ruta de la image
+            "size": "16x16", // size:  tamaño de la image
+            "type: "image/png" //type de image o archivo que estoy cargando o que vas a tomar el manifest para cargar
+        }
+    ]
+}
